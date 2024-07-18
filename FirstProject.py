@@ -1,6 +1,6 @@
 import random
 
-# Define choices
+# here am Defining choices
 choices = {"r": "Rock", "p": "Paper", "s": "Scissors"}
 # Map choices to win/lose conditions
 results = {
@@ -15,7 +15,7 @@ results = {
 # Get computer's choice
 computer_choice = random.choice(list(choices.values()))
 
-# Get user's choice
+# Get user's choices
 user_input = input("Enter your choice (r for Rock, p for Paper, s for Scissors): ")
 user_choice = choices[user_input]
 
